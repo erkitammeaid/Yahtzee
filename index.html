@@ -8,7 +8,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Yahtzee</h1>
+    <h1 class="heading">Yahtzee</h1>
+    <div class="container">
+        <div class="numbers">
+            <div class="one">one</div>
+            <div class="two">two</div>
+            <div class="three">three</div>
+            <div class="four">four</div>
+            <div class="five">five</div>
+            <div class="six">six</div>
+            <div class="total">TOTAL</div>
+        </div>
+        <div class="special">
+            <div class="one">3 of a kind</div>
+            <div class="two">4 of a kind</div>
+            <div class="three">Full House</div>
+            <div class="four">sm straight</div>
+            <div class="five">lg straight</div>
+            <div class="six">YAHTZEE</div>
+            <div class="chance">chance</div>
+        </div>
+    </div>
+    <div class="dice-container">
+        <img class="dice1">
+        <img class="dice2">
+        <img class="dice3">
+        <img class="dice4">
+        <img class="dice5">
+    </div>
+    <div class="button-container">
+        <button id="roll" onclick="roll()">ROLL</button>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
