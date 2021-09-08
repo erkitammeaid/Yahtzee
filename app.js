@@ -15,3 +15,24 @@ function selectDice() {
     document.getElementById("dice1").innerhtml = 'pede';
 }
 
+
+
+function changeColor(color){
+    document.getElementById("diceid1").style.background = color;
+}
+
+function changeColor(color){
+    document.getElementById("diceid2").style.background = color;
+}
+
+function changeColor(color){
+    document.getElementById("diceid3").style.background = color;
+}
+
+function changeColor(color){
+    document.getElementById("diceid4").style.background = color;
+}
+
+function changeColor(color){
+    document.getElementById("diceid5").style.background = color;
+}
