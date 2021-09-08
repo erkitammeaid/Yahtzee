@@ -1,3 +1,4 @@
+
 function roll() {
     const rng1 = Math.floor(Math.random() * 6) + 1
     document.querySelector(".dice1").setAttribute("src", rng1 + ".png");
@@ -13,3 +14,4 @@ function roll() {
 function selectDice() {
     document.getElementById("dice1").innerhtml = 'pede';
 }
+

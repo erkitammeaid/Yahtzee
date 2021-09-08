@@ -13,6 +13,12 @@
 .container {
     display: flex;
     justify-content: center;
+    width: 100%;
+    flex-direction: row;
+}
+form {
+    border: 1px solid black;
+    padding: 1rem;
 }
 #roll {
     height: 1rem;
@@ -26,33 +32,6 @@
     display: flex;
     justify-content: center;
 }
-.numbers {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    background-color: #730A00;
-}
-.numbers div {
-    margin: 5px;
-    border: solid 3px white;
-    border-radius: 1rem;
-    padding: 5px 10px;
-    background-color: #BF1000;
-}
-.special {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    background-color: #730A00;
-
-}
-.special div {
-    margin: 5px;
-    border: solid 3px white;
-    border-radius: 1rem;
-    padding: 5px 10px;
-    background-color: #BF1000;
-}
 .dice-container {
     display: flex;
     justify-content: center;
@@ -61,3 +40,4 @@
 .dice {
     height: 5rem;
 }
+

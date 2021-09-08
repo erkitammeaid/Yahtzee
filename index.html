@@ -8,26 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="heading">Yahtzee</h1>
     <div class="container">
-        <div class="numbers">
-            <div class="one">one</div>
-            <div class="two">two</div>
-            <div class="three">three</div>
-            <div class="four">four</div>
-            <div class="five">five</div>
-            <div class="six">six</div>
-            <div class="total">TOTAL</div>
-        </div>
-        <div class="special">
-            <div class="one">3 of a kind</div>
-            <div class="two">4 of a kind</div>
-            <div class="three">Full House</div>
-            <div class="four">sm straight</div>
-            <div class="five">lg straight</div>
-            <div class="six">YAHTZEE</div>
-            <div class="chance">chance</div>
-        </div>
+        <form action="#">
+            <input type="radio" id="1" name="score" value="ones"><label for="ones">ones</label><br>
+            <input type="radio" id="2" name="score" value="twos"><label for="twos">twos</label><br>
+            <input type="radio" id="3" name="score" value="threes"><label for="threes">threes</label><br>
+            <input type="radio" id="4" name="score" value="fours"><label for="fours">fours</label><br>
+            <input type="radio" id="5" name="score" value="fives"><label for="fives">fives</label><br>
+            <input type="radio" id="6" name="score" value="sixes"><label for="sixes">sixes</label><br>
+            <input type="radio" id="3kind" name="score" value="3kind"><label for="3kind">3 of a kind</label><br>
+            <input type="radio" id="4kind" name="score" value="4kind"><label for="4kind">4 of a kind</label><br>
+            <input type="radio" id="fhouse" name="score" value="fhouse"><label for="fhouse">full house</label><br>
+            <input type="radio" id="smstraight" name="score" value="smstraight"><label for="smstraight">small straight</label><br>
+            <input type="radio" id="lgstraight" name="score" value="lgstraight"><label for="lgstraight">large straight</label><br>
+            <input type="radio" id="yahtzee" name="score" value="yahtzee"><label for="yahtzee">yahtzee</label><br>
+            <input type="radio" id="chance" name="score" value="chance"><label for="chance">chance</label><br>
+            <input type="submit" value="Submit">
+        </form>
     </div>
     <div class="dice-container">
         <img class="dice1">
@@ -39,6 +36,7 @@
     <div class="button-container">
         <button id="roll" onclick="roll()">ROLL</button>
     </div>
+    
     <script src="app.js"></script>
 </body>
 </html>
