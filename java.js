@@ -2,7 +2,7 @@ var min = 1;
 var max = 6;
 var turns = 3;
 
-$('.cube').click(function(){
+$('#diceid').click(function(){
   if ($(this).hasClass('held')) {
     $(this).removeClass('held');
   } else {
@@ -11,7 +11,7 @@ $('.cube').click(function(){
 });
 
 $('#roll').click(function(){
-  var cubes = $('.cube:not(.held)');
+  var cubes = $('.diceid:not(.held)');
   cubes.each(function(){
     roll($(this));
   });
@@ -36,8 +36,4 @@ function roll() {
     document.querySelector(".dice4").setAttribute("src", rng4 + ".png");
     const rng5 = Math.floor(Math.random() * 6) + 1
     document.querySelector(".dice5").setAttribute("src", rng5 + ".png");
-}
-
-function getRandom(max, min) {
-  return Math.floor(Math.random() * (max-min)) + min;
 }

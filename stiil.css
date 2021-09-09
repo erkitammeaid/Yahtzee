@@ -57,9 +57,8 @@ body {
     padding: 25% 0;
   }
   
-  .cube.held div {
+  .held {
     background: hsla(240, 85%, 50%, 0.75);
-    border: 1% solid #1a1aab;
   }
   .score-die {
     background: #f00;
@@ -68,4 +67,7 @@ body {
     float: right;
     height: 24px;
     width: 24px;
+  }
+  #diceid {
+      padding: 1rem;
   }
