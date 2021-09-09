@@ -13,7 +13,7 @@ body {
   .clearfix { display: inline-block; }
   * html .clearfix { height: 1%; }
   .clearfix { display: block; }
-  
+
   button {
     position: relative;
     display: block;
@@ -56,7 +56,7 @@ body {
     text-align: center;
     padding: 25% 0;
   }
-  
+
   .held {
     background: hsla(240, 85%, 50%, 0.75);
   }
@@ -69,5 +69,5 @@ body {
     width: 24px;
   }
   #diceid {
-      padding: 1rem;
+      padding: 2px;
   }

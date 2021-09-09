@@ -2,7 +2,7 @@ var min = 1;
 var max = 6;
 var turns = 3;
 
-$('#diceid').click(function(){
+$('.dice1').click(function(){
   if ($(this).hasClass('held')) {
     $(this).removeClass('held');
   } else {
@@ -10,15 +10,47 @@ $('#diceid').click(function(){
   }
 });
 
+$('.dice2').click(function(){
+    if ($(this).hasClass('held')) {
+      $(this).removeClass('held');
+    } else {
+      $(this).addClass('held');
+    }
+  });
+
+  $('.dice3').click(function(){
+    if ($(this).hasClass('held')) {
+      $(this).removeClass('held');
+    } else {
+      $(this).addClass('held');
+    }
+  });
+
+  $('.dice4').click(function(){
+    if ($(this).hasClass('held')) {
+      $(this).removeClass('held');
+    } else {
+      $(this).addClass('held');
+    }
+  });
+
+  $('.dice5').click(function(){
+    if ($(this).hasClass('held')) {
+      $(this).removeClass('held');
+    } else {
+      $(this).addClass('held');
+    }
+  });
+
 $('#roll').click(function(){
   var cubes = $('.diceid:not(.held)');
   cubes.each(function(){
     roll($(this));
   });
   turns--;
-  
+
   $('#turns').text(turns);
-  
+
   if (turns === 0) {
     $(this).unbind('click');
     $(this).attr('disabled', 'disabled');
