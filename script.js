@@ -1,5 +1,3 @@
-var min = 1;
-var max = 6;
 var turns = 3;
 
 $('.dice1').click(function(){
@@ -43,7 +41,7 @@ $('.dice2').click(function(){
   });
 
 $('#roll').click(function(){
-  var cubes = $('.diceid:not(.held)');
+  var cubes = $('#diceid:not(.held)');
   cubes.each(function(){
     roll($(this));
   });
