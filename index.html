@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="yahtzee-board clearfix">
-        <img id="diceid" class="dice1">
-        <img id="diceid" class="dice2">
-        <img id="diceid" class="dice3"> 
-        <img id="diceid" class="dice4">
-        <img id="diceid" class="dice5">
+    <div id="yahtzee-board clearfix">
+        <div class="dice" data-status="active" data-index="0">4</div>
+        <div class="dice" data-status="active" data-index="1">4</div>
+        <div class="dice" data-status="active" data-index="2">4</div>
+        <div class="dice" data-status="active" data-index="3">4</div>
+        <div class="dice" data-status="active" data-index="4">4</div>
     </div>
     <button id="roll" onclick="roll()">ROLL</button>
     <p>Rolls left: <span id="turns">3</span></p>
