@@ -9,7 +9,6 @@
 #dice {
     font-size: 6rem;
 }
-
 button {
     margin: 2rem;
     padding: 0.5rem 1rem;
@@ -20,4 +19,7 @@ button {
 }
 button:hover {
     background-color: goldenrod;
+}
+table, th, td {
+    border: black solid 1px;
 }
