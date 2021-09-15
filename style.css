@@ -1,0 +1,15 @@
+.dice-container {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    justify-content: space-evenly;
+    border: solid black 10px;
+    border-radius: 1rem;
+}
+#dice {
+    font-size: 6rem;
+}
+
+button {
+    padding: 1rem;
+}
