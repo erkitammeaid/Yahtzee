@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     border: solid black 10px;
     border-radius: 1rem;
+    cursor: pointer;
 }
 #dice {
     font-size: 6rem;
@@ -22,4 +23,8 @@ button:hover {
 }
 table, th, td {
     border: black solid 1px;
+}
+
+div[data-state="inactive"]{
+    border:solid 1px red;
 }
