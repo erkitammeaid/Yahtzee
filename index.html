@@ -9,78 +9,78 @@
 </head>
 <body>
     <div class="dice-container">
-        <div data-state="active" class="dice">X</div>
-        <div data-state="active" class="dice">X</div>
-        <div data-state="active" class="dice">X</div>
-        <div data-state="active" class="dice">X</div>
-        <div data-state="active" class="dice">X</div>
+        <div data-state="active" class="dice" data-index="0">X</div>
+        <div data-state="active" class="dice" data-index="1">X</div>
+        <div data-state="active" class="dice" data-index="2">X</div>
+        <div data-state="active" class="dice" data-index="3">X</div>
+        <div data-state="active" class="dice" data-index="4">X</div>
     </div>
     <button onclick="rng()">Random</button>
 
     <table style="width:20%">
         <tr>
           <td>Ones</td>
-          <td></td>
+          <td class="score" data-score-type="count" data-score-index="1">0</td>
         </tr>
           <tr>
             <td>twos</td>
-            <td></td>
+            <td class="score" data-score-type="count" data-score-index="2">0</td>
           </tr>
           <tr>
             <td>threes</td>
-            <td></td>
+            <td class="score" data-score-type="count" data-score-index="3">0</td>
           </tr>
           <tr>
             <td>fours</td>
-            <td></td>
+            <td class="score" data-score-type="count" data-score-index="4">0</td>
           </tr>
           <tr>
             <td>fives</td>
-            <td></td>
+            <td class="score" data-score-type="count" data-score-index="5">0</td>
           </tr>
           <tr>
             <td>sixes</td>
-            <td></td>
+            <td class="score" data-score-type="count" data-score-index="6">0</td>
           </tr>
           <tr>
             <td>bonus</td>
-            <td></td>
+            <td>0</td>
           </tr>
           <tr>
             <td><b>TOTAL</b></td>
-            <td></td>
+            <td>0</td>
           </tr>
           <tr>
             <td>3 of a kind</td>
-            <td></td>
+            <td>0</td>
           </tr>
             <tr>
               <td>4 of a kind</td>
-              <td></td>
+              <td>0</td>
             </tr>
             <tr>
               <td>full house</td>
-              <td></td>
+              <td>0</td>
             </tr>
             <tr>
               <td>small straight</td>
-              <td></td>
+              <td>0</td>
             </tr>
             <tr>
               <td>large straight</td>
-              <td></td>
+              <td>0</td>
             </tr>
             <tr>
               <td>YAHTZEE</td>
-              <td></td>
+              <td>0</td>
             </tr>
             <tr>
               <td>chance</td>
-              <td></td>
+              <td>0</td>
             </tr>
             <tr>
               <td><b>GRAND TOTAL</b></td>
-              <td></td>
+              <td>0</td>
             </tr>
       </table>
 
